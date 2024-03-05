@@ -5,7 +5,7 @@ import streamlit as st
 st.title("Gemini-Bot")
 
 def load_model():
-    genai.configure(api_key=st.secrets["api_key"])
+    genai.configure(api_key='AIzaSyDS8L-sX2WkwgBuDbr_6b0VbhzJQmbMVP8')
     model = genai.GenerativeModel('gemini-pro')
     print("model loaded...")
     return model
